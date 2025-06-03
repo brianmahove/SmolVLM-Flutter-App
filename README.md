@@ -17,6 +17,19 @@
 - 🧠 Powered by SmolVLM + LLaMA.cpp
 - 🧼 Handles preview stretching and UI glitches
 
+## 📷 Screenshots
+
+
+<div align="center">
+  <img src="screenshots/1.jpg" width="200" style="margin-right: 10px;" />
+  <img src="screenshots/2.jpg" width="200" />
+</div>
+<p float="left">
+ 
+  <img src="screenshots/3.png"/>
+</p>
+
+
 ## 🛠 Tech Stack
 
 - **Frontend:** Flutter + Dart + Camera plugin
