@@ -27,6 +27,23 @@
 ## 🧪 How to Run
 
 1. Clone this repo:
-   ```bash
-   git clone https://github.com/brianmahove/SmolVLM-Flutter-App.git
-   cd SmolVLM-Flutter-App
+   - git clone https://github.com/brianmahove/SmolVLM-Flutter-App.git
+   - cd SmolVLM-Flutter-App
+Install Flutter dependencies:
+-flutter pub get
+
+Make sure llama-server is running locally (with your GGUF model loaded).
+Run the app:
+- flutter run
+Note: You need a device/emulator with a working camera.
+
+📦 Model + Server Setup
+Download llama-server
+-Use the SmolVLM-500M-Instruct-f16.gguf model
+
+Run:
+- ./llama-server -m ./models/SmolVLM-500M-Instruct-f16.gguf
+
+Let’s connect if you're working on mobile AI, computer vision, or LLMs.
+
+#Flutter #AI #LLaMAcpp #SmolVLM #MobileApp #ComputerVision
