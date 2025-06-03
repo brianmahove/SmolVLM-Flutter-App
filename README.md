@@ -1,16 +1,32 @@
-# smolvlm_realtime_webcam
+# 📸 SmolVLM Flutter App
 
-A new Flutter project.
+🔥 A real-time AI camera assistant built entirely with Flutter and LLaMA.cpp — works offline, no cloud needed.
 
-## Getting Started
+## 🧠 What It Does
 
-This project is a starting point for a Flutter application.
+- Captures live images from your mobile camera
+- Sends them to a local LLaMA.cpp multimodal server
+- Uses SmolVLM-500M to generate smart, natural language descriptions of what it sees
+- Works in real-time and fully offline
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🌐 No internet required — local AI inference
+- 📷 Front & back camera support with seamless switching
+- 🔄 Sends frames to the AI server every few seconds
+- 🧠 Powered by SmolVLM + LLaMA.cpp
+- 🧼 Handles preview stretching and UI glitches
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- **Frontend:** Flutter + Dart + Camera plugin
+- **AI Model:** SmolVLM-500M-Instruct-f16.gguf
+- **Backend Server:** llama-server (from LLaMA.cpp)
+- **Communication:** Base64-encoded images → AI → Natural language response
+
+## 🧪 How to Run
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/brianmahove/SmolVLM-Flutter-App.git
+   cd SmolVLM-Flutter-App
